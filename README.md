@@ -1,4 +1,4 @@
-# anandamarwan.com/ Personal website of Ananda Marwanaya Putra
+# anandamarwan.com / Personal website of Ananda Marwanaya Putra
 
 This is my personal website to show my profile, bio, photo, links, social media, projects, posts, services, and more.
 
@@ -14,6 +14,6 @@ Social media:
 - GitHub: [github.com/anandamarwan](https://github.com/anandamarwan)
 - Instagram: [instagram.com/anandamarwanayaputra](https://instagram.com/anandamarwanayaputra/)
 
-## Preference
+## References
 
-- Figma File : <https://www.figma.com/file/XiwWjVe6dnQkBYFkbY9I7f/Comed-Mainfile?type=design&node-id=1-2&mode=design&t=Fd4lUlgFZuxBXazH-0>
+- Figma File: <https://www.figma.com/file/XiwWjVe6dnQkBYFkbY9I7f/Comed-Mainfile?type=design&node-id=1-2&mode=design&t=Fd4lUlgFZuxBXazH-0>

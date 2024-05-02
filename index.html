@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ananda Marwanaya Putra</title>
+    <meta
+      name="description"
+      content="Personal website of Ananda Marwan, a web developer"
+    />
   </head>
+
   <body>
     <header class="container header">
-      <!--
-      - #Header
-    -->
       <nav class="navigation">
         <ul class="navigation-list">
           <li>
@@ -27,16 +29,13 @@
     </header>
 
     <main class="container stack">
-      <!--
-      - #Main
-    -->
       <section>
-        <img src="images/photo-cover.jpg" alt="photo-cover" />
+        <img src="/images/photo-cover.jpg" alt="photo-cover" />
       </section>
 
       <section>
         <h1>Ananda Marwanaya Putra</h1>
-        <h1>Full Stack Javascript</h1>
+        <h2>Full Stack Javascript</h2>
         <p>
           I’m a financial consultant who has 3 years of experience in the
           capital markets and i'm currently learning full stack developer at
@@ -44,28 +43,32 @@
         </p>
       </section>
 
-      <!--
-      - #Content
-      -->
-      <section>
-        <h2>Projects :</h2>
+      <section class="section-projects">
+        <h2>Projects:</h2>
 
-        <img src="images/muslim-website.png" alt="photo-of-muslim-website" />
-        <br />
-        <p>Muslim Web(Cooming Soon)</p>
+        <div class="project">
+          <img src="/images/muslim-website.png" alt="photo-of-muslim-website" />
+          <p>Muslim Web(Cooming Soon)</p>
+        </div>
 
-        <img src="images/absensi-website.jpeg" alt="photo-of-absensi-website" />
-        <br />
-        <p>Absensi Web(Cooming Soon)</p>
+        <div>
+          <img
+            src="/images/absensi-website.jpeg"
+            alt="photo-of-absensi-website"
+          />
+          <p>Absensi Web(Cooming Soon)</p>
+        </div>
 
-        <img
-          src="images/onlineshop-website.jpg"
-          alt="photo-of-onlineshop-website"
-        /><br />
-        <p>Online Shop(Cooming Soon)</p>
+        <div>
+          <h3>Online Shop (Coming Soon)</h3>
+          <img
+            src="/images/onlineshop-website.jpg"
+            alt="photo-of-onlineshop-website"
+          />
+        </div>
 
-        <img src="images/to-do-app.jpg" alt="photo-of-to-do-app" /><br />
-        <p>To do App(Cooming Soon)</p>
+        <img src="/images/to-do-app.jpg" alt="photo-of-to-do-app" />
+        <p>To do App (Coming Soon)</p>
       </section>
 
       <section>
@@ -73,33 +76,42 @@
       </section>
 
       <section>
-        <img src="images/logo-github.jpeg" alt="photo-of-github" />
-        <img src="images/logo-linkedin.png" alt="photo-of-linkedin" />
-        <img src="images/logo-wa.png" alt="photo-of-wa" />
+        <img src="/images/logo-github.jpeg" alt="GitHub" />
+        <img src="/images/logo-linkedin.png" alt="LinkedIn" />
+        <img src="/images/logo-wa.png" alt="WhatsApp" />
       </section>
     </main>
 
-    <!--
-      - #Footer
-     -->
     <footer class="container footer">
-      <h3>Address</h3>
-      <p>17 Dago Asri S.t</p>
-      <p>Bandung 40135</p>
-      <p>Indonesia</p>
+      <address>
+        <h3>Address</h3>
+        <p>17 Dago Asri S.t</p>
+        <p>Bandung 40135</p>
+        <p>Indonesia</p>
+      </address>
 
-      <h3>Links</h3>
-      <ul class="navigation-list"></ul>
-      <li>home</li>
-      <li>About</li>
-      <li>Contact</li>
-      <li>Blog</li>
+      <section>
+        <h3>Links</h3>
+        <ul class="navigation-list">
+          <li>home</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Blog</li>
+        </ul>
+      </section>
 
-      <h3>Phone</h3>
-      <p>+62 81371031191</p>
-      <p>If you have a question, please contact at anandamarwan20@gmail.com</p>
+      <section>
+        <h3>Phone</h3>
+        <p>+62-813-7103-1191</p>
+        <p>
+          If you have a question, please contact at
+          <a href="mailto:anandamarwan20@gmail.com">anandamarwan20@gmail.com</a>
+        </p>
+      </section>
 
-      <p class="copyright">&copy; 2024 - Ananda Marwanaya Putra</p>
+      <section>
+        <p class="copyright">&copy; 2024 - Ananda Marwanaya Putra</p>
+      </section>
     </footer>
   </body>
 </html>
