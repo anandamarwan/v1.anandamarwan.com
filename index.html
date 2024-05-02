@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ananda Marwanaya Putra</title>
+
+    <link rel="stylesheet" href="/index.css" />
   </head>
   <body>
     <header class="container header">
@@ -30,31 +32,43 @@
       <!--
       - #Main
     -->
-      <section>
-        <img src="images/photo-cover.jpg" alt="photo-cover" />
-      </section>
 
-      <section>
-        <h1>Ananda Marwanaya Putra</h1>
-        <h1>Full Stack Javascript</h1>
-        <p>
-          I’m a financial consultant who has 3 years of experience in the
-          capital markets and i'm currently learning full stack developer at
-          Bearmentor bootcamp.
-        </p>
-      </section>
+      <div class="flex-container">
+        <img src="images/photo-cover.jpg" alt="photo-cover" />
+        <div>
+          <h1 class="fullstack">Ananda Marwanaya Putra</h1>
+          <h1>Full Stack Javascript</h1>
+          <p>
+            I’m a <b class="b">financial consultant</b> who has 3 years of
+            experience in the <b class="b">capital markets</b> and i'm currently
+            learning full stack developer at
+            <b class="b">Bearmentor </b>bootcamp.
+          </p>
+        </div>
+      </div>
 
       <!--
       - #Content
       -->
-      <section>
-        <h2>Projects :</h2>
 
-        <img src="images/muslim-website.png" alt="photo-of-muslim-website" />
-        <br />
+      <h2>Projects :</h2>
+      <div class="flex-container">
+        <img
+          src="images/muslim-website.png"
+          alt="photo-of-muslim-website"
+        /><br />
         <p>Muslim Web(Cooming Soon)</p>
+        <div>
+          <img
+            src="images/absensi-website.jpeg"
+            alt="photo-of-absensi-website"
+          />
+          <p>Muslim Web(Cooming Soon)</p>
+        </div>
+      </div>
+      <section>
+        <br />
 
-        <img src="images/absensi-website.jpeg" alt="photo-of-absensi-website" />
         <br />
         <p>Absensi Web(Cooming Soon)</p>
 
