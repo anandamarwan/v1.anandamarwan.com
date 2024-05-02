@@ -34,13 +34,15 @@ p {
   font-size: 1.2rem;
 }
 
-img {
-  width: 20%;
-  object-fit: contain;
-}
-
 textarea {
   font-family: var(--font-sans);
+}
+
+.person-photo {
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 .stack {
