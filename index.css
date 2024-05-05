@@ -230,3 +230,8 @@ textarea {
   margin-left: 350px; 
   color : black;
 }
+
+img {
+  width: 400px;
+  object-fit: contain;
+}
