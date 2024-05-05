@@ -1,9 +1,9 @@
 :root {
   --font-sans: "Inter", sans-serif;
   --text-primary: hsla(200, 70%, 95%, 1);
-  --bg-primary: hsla(200, 70%, 50%, 1);
-  --bg-primary-hover: hsla(200, 70%, 60%, 1);
-  --bg-primary-focus: hsla(200, 70%, 40%, 1);
+  --bg-primary: green;
+  --bg-primary-hover: green;
+  --bg-primary-focus: green;
 }
 
 body {
@@ -195,20 +195,38 @@ textarea {
   font-size: 40px;
 }
 
+.navigation2{
+  font-size: 15px;
+}
+
 .skills {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 270px;
+  margin-top: -130px;
+
+
+}
+
+.bgskills {
   background-color: black;
-  color : white;
-  width: 180px;
-  height: 66px;
+  color: white;
+  width: 70px;
+  height: 20px;
   border: 10px solid black;
   text-align: center;
   border-radius: 25px;
-  
 }
+  
+
 
 .h1{
   width: 639px;
   height: 77px;
+  font-size: 30px;
   margin-left: 350px; 
   color : black;
 }
