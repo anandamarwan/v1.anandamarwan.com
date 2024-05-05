@@ -279,3 +279,29 @@ img {
 .cont-about {
   text-align: center;
 }
+
+.photo-cover-about{
+  width: 900px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.logo-indopips {
+    width: 150px;
+    height: 80px;
+    margin-left: 250px;
+  margin-right: 250px;
+}
+
+.about-text {
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.about-text2{
+  text-align: left;
+  margin-top: 50px;
+}
