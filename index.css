@@ -334,20 +334,17 @@ img {
   height: 120px;
 }
 
-.button {
-  border-radius: 4px;
-  border: none;
-  background: green;
+input[type=submit] {
+  background-color: #04AA6D;
   color: white;
-  font-weight: bold;
-  font-size: 1.2rem;
-  transition: 0.25s all ease-in-out;
-  margin-right: 200px;
+  padding: 12px 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 600px;
+
 }
 
-.submit {
-  justify-content: right;
-}
 
 
 
